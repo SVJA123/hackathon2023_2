@@ -18,6 +18,11 @@ a {
   margin-bottom: 20px;
 }
 
+.table {
+  align-items: center;
+  justify-content: center;
+}
+
 .video {
   display: flex;
   margin: 30px;
