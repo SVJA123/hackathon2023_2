@@ -7,7 +7,7 @@ It contains the following files:
 - `donate.html`, the donating web page.
 - `request.html`, the requesting web page.
 - `style.css`, styles the web page.
-- `db.js`, the backend code connecting the webpage to the databse
+- `database.js`, the backend code connecting the webpage to the databse
 - `.gitignore`, sets a Git pattern what .files to not include when committing.
 - `README.md`, this README file.
 
