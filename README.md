@@ -1,19 +1,19 @@
-This is a template for a project website. It contains a website with a YouTube link in it.
-
+This is a web prototype for a donatin system website
 ## Files
 
 It contains the following files:
 
-- `index.html`, the web page.
+- `index.html`, the main web page.
+- `donate.html`, the donating web page.
+- `request.html`, the requesting web page.
 - `style.css`, styles the web page.
+- `db.js`, the backend code connecting the webpage to the databse
 - `.gitignore`, sets a Git pattern what .files to not include when committing.
 - `README.md`, this README file.
 
-## Create a repo from it
+## Functions
+This webpage uses the azure static webpage as well as the azure SQL database.
 
-It's set up to be a GitHub template. To use it as a template, do the following:
-
-- Select "Use this template", or go to <https://github.com/softchris/swa-copy/generate>
 
 ## Resources
 
@@ -21,4 +21,3 @@ It's set up to be a GitHub template. To use it as a template, do the following:
 - [Azure Static Web apps extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestaticwebapps)
 - [Visual Studio Code download](https://code.visualstudio.com/download)
 
-- [Get started with Azure Static Web Apps VIDEO](https://youtu.be/v4n0AU2xlOo)
