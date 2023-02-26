@@ -15,54 +15,35 @@
     <div class="description">
       Our mission is to empower individuals and communities in need by providing access to resources, education, and support. We believe that everyone deserves the opportunity to reach their full potential, regardless of their background or circumstances. Through collaboration with local partners, we work to address the root causes of poverty, inequality, and social injustice. We are committed to transparency, accountability, and sustainability, and strive to make a lasting impact on the lives of those we serve.
     </div>
-    <div class="container-sm">
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Contact</th>
-                <th scope="col">Country</th>
-                <th scope="col">Requests</th>
-                <th scope="col">Donate</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Alexio</td>
-                <td>+447778631503</td>
-                <td>United Kingdom</td>
-                <td>Warm Clothing</td>
-                <td>
-                  <div class="button">
-                  <a href="./request.html" class="btn btn-primary" role="button" aria-disabled="true">Donate</a>
-                  </div>
-                </td>
-            </tr>
-            <tr>
-                <td>Alexio</td>
-                <td>+447778631503</td>
-                <td>United Kingdom</td>
-                <td>Warm Clothing</td>
-            </tr>
-            <tr>
-                <td>Alexio</td>
-                <td>+447778631503</td>
-                <td>United Kingdom</td>
-                <td>Warm Clothing</td>
-            </tr>
-            </tbody>
-        </table>
+    <div class="scrollable">
+      <table>
+        <thead>
+          <tr>
+            <th>Request ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Location</th>
+            <th>Recipient</th>
+            <th>Donate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ request.RequestID }}</td>
+            <td>{{ request.Request_Title }}</td>
+            <td>{{ request.Request_Description }}</td>
+            <td>{{ request.Request_Status }}</td>
+            <td>{{ request.Request_Location }}</td>
+            <td>{{ request.Request_Recipient }}</td>
+            <td><a href="./request.html" class="btn btn-primary" role="button" aria-disabled="true">Donate</a></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <div class="button">
       <a href="./request.html" class="btn btn-primary" role="button" aria-disabled="true">Add Request</a>
-    </div>
-    
-    <div class="video">
-      <iframe width="420" 
-              height="315"
-              src="https://www.youtube.com/embed/w-tLZjO6XMc?controls=0">
-      </iframe>
     </div>
     
     <div class="resources">
